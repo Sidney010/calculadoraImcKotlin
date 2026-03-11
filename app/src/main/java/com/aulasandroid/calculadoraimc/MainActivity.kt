@@ -174,7 +174,7 @@ fun CalculadoraImcMainScreen(modifier: Modifier = Modifier) {
                             focusedBorderColor = colorResource(R.color.cor_app),
                             unfocusedBorderColor = colorResource(R.color.cor_app)
                         ),
-                        leadingIcon = {
+                        trailingIcon = {
                             IconButton(
                                 onClick = {
                                     valorPeso = ""
@@ -213,7 +213,7 @@ fun CalculadoraImcMainScreen(modifier: Modifier = Modifier) {
                             focusedBorderColor = colorResource(R.color.cor_app),
                             unfocusedBorderColor = colorResource(R.color.cor_app)
                         ) ,
-                        leadingIcon = {
+                        trailingIcon = {
                             IconButton(
                                 onClick = {
                                     valorPeso = ""
