@@ -177,7 +177,7 @@ fun CalculadoraImcMainScreen(modifier: Modifier = Modifier) {
                         trailingIcon = {
                             IconButton(
                                 onClick = {
-                                    valorPeso = ""
+                                    valorAltura = ""
                                 }
 
                             )
